@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Find Blood</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="navbar">
+  <div class="logo">🩸</div>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="aboutus.html">About Us</a>
+    <a href="findblood.html" class="active">Find Blood</a>
+    <a href="register.html">Register Now</a>
+  </nav>
+
+  <button class="login">Log In</button>
+</header>
+
+<section class="find-blood-section">
+  <div class="find-container">
+    <div class="find-left">
+      <div class="gradient-shape"></div>
+    </div>
+
+    <div class="find-right">
+      <h2>Recipient Details</h2>
+
+      <form class="find-form">
+        <div class="form-group">
+          <select required>
+            <option value="" disabled selected>Blood Group</option>
+            <option>A+</option>
+            <option>A-</option>
+            <option>B+</option>
+            <option>B-</option>
+            <option>AB+</option>
+            <option>AB-</option>
+            <option>O+</option>
+            <option>O-</option>
+          </select>
+        </div>
+
+        <button type="button" class="location-btn">Current Location</button>
+
+        <div class="or-divider">OR</div>
+
+        <div class="form-group">
+          <select required>
+            <option value="" disabled selected>State</option>
+            <option>Bulacan</option>
+            <option>Metro Manila</option>
+            <option>Laguna</option>
+            <option>Cavite</option>
+            <option>Rizal</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <select required>
+            <option value="" disabled selected>District</option>
+            <option>District 1</option>
+            <option>District 2</option>
+            <option>District 3</option>
+            <option>District 4</option>
+          </select>
+        </div>
+
+        <button type="submit" class="proceed-btn">
+          Proceed
+          <span class="arrow">→</span>
+        </button>
+      </form>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>

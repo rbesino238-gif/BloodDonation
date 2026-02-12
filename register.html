@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Register As Donor</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="navbar">
+  <div class="logo">🩸</div>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="aboutus.html">About Us</a>
+    <a href="findblood.html">Find Blood</a>
+    <a href="register.html" class="active">Register Now</a>
+  </nav>
+
+  <button class="login">Log In</button>
+</header>
+
+<section class="reg-hero">
+  <div class="container">
+    <div class="reg-banner">
+      <h1>Register As Donor</h1>
+    </div>
+
+    <div class="reg-card">
+      <form class="reg-form">
+        <div class="row">
+          <label>Full Name</label>
+          <div class="two">
+            <input type="text" placeholder="First" required>
+            <input type="text" placeholder="Last Name" required>
+          </div>
+        </div>
+
+        <div class="row">
+          <label>Phone Number</label>
+          <input type="tel" placeholder="Number" required>
+        </div>
+
+        <div class="row">
+          <label>E mail</label>
+          <input type="email" placeholder="Mail Id" required>
+        </div>
+
+        <div class="row address-row">
+          <label>Address</label>
+          <textarea placeholder="Type Here"></textarea>
+          <label class="age-label">Age</label>
+          <input type="number" class="age-input" placeholder="Age" min="0">
+        </div>
+
+        <div class="row blood-row">
+          <label>&nbsp;</label>
+          <div class="empty"></div>
+          <label class="blood-label">Blood Group</label>
+          <select class="blood-select">
+            <option value="" selected disabled></option>
+            <option>A+</option><option>A-</option>
+            <option>B+</option><option>B-</option>
+            <option>AB+</option><option>AB-</option>
+            <option>O+</option><option>O-</option>
+          </select>
+        </div>
+
+        <div class="row district-state">
+          <label class="district-label">District</label>
+          <select class="district-select">
+            <option value="" selected disabled></option>
+            <option>District 1</option>
+            <option>District 2</option>
+            <option>District 3</option>
+          </select>
+          <label class="state-label">State</label>
+          <select class="state-select">
+            <option value="" selected disabled></option>
+            <option>Bulacan</option>
+            <option>Metro Manila</option>
+            <option>Laguna</option>
+          </select>
+        </div>
+
+        <div class="row">
+          <label>PinCode</label>
+          <input type="text" placeholder="">
+        </div>
+
+        <div class="row">
+          <label>Last Donation</label>
+          <div class="two">
+            <input type="text" placeholder="Month">
+            <input type="text" placeholder="Year">
+          </div>
+        </div>
+
+        <div class="row agree">
+          <input type="checkbox" id="agree">
+          <label for="agree">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</label>
+        </div>
+
+        <div class="submit-row">
+          <button class="submit-btn" type="submit">
+            Submit <span class="check">✓</span>
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>
